@@ -10,7 +10,7 @@ dests = {
 
 
 
-def find_ways(dests: dict) -> int:
+def count_ways(dests: dict) -> int:
 
     result = list(list(dests.keys())[0]) 
     result2 = []  
@@ -30,4 +30,4 @@ def find_ways(dests: dict) -> int:
     return len(result2)
 
 
-print(find_ways(dests))
+print(count_ways(dests))
